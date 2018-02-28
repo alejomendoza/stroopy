@@ -1,0 +1,25 @@
+{
+  "name": "stroopy",
+  "version": "0.0.1",
+  "description": "Stroopy Slack Bot",
+  "author": "Alejo Mendoza",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=dev ts-node ./src/stream-transactions.ts"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": "8.9.0"
+  },
+  "dependencies": {
+    "@types/node": "8.9.0",
+    "botkit": "^0.6.9",
+    "mobx": "^3.5.1",
+    "stellar-sdk": "^0.8.0",
+    "ts-node": "3.1.0",
+    "typescript": "^2.7.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.5.0"
+  }
+}

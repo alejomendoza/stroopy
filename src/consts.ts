@@ -1,0 +1,2 @@
+export const SLACK_API_TOKEN = 'xoxb-318335231863-kPmbBdXCsBRnS82fUSsZlydD';
+export const HORIZON_URL = process.env.NODE_ENV === 'dev' ? 'https://horizon-testnet.stellar.org' : 'https://horizon.stellar.org';
