@@ -1,9 +1,9 @@
 let Botkit = require('botkit');
-import { SLACK_API_TOKEN } from './consts';
+import { BOT_TOKEN } from './consts';
 
 export let controller = Botkit.slackbot();
 export let bot = controller.spawn({
-  token: SLACK_API_TOKEN,
+  token: BOT_TOKEN,
 });
 
 bot.startRTM((err: any, bot: any, payload: any) => {
