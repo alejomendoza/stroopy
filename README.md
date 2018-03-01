@@ -17,3 +17,7 @@ Connect a bot to Slack, get a Bot API token from the Slack integrations [page.](
 Stream transactions: `stream transactions @stroopy`
 
 Stop transactions: `stop transactions @stroopy`
+
+## Liked this project? 
+
+Tip me on Stellar network: `GDUNB6SGNYCGOQCNK44HGM7JXAJDCHU6ZYWUXKCI4S6UDQQ3AE7SAXBM`
