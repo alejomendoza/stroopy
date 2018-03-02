@@ -2,8 +2,8 @@ const StellarSdk = require('stellar-sdk');
 import { HORIZON_URL } from './consts';
 const server = new StellarSdk.Server(HORIZON_URL);
 import { observable, IObservableObject } from 'mobx';
-import { Transaction, getOperationType } from './types';
-import { getOperationValue } from './value';
+import { Transaction } from './types';
+import { getOperationValue, getOperationType } from './operation.functions';
 
 export let transactionsObservable: { transaction: Transaction } & IObservableObject = observable({
   transaction: null,

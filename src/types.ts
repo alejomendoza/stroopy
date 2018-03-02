@@ -29,32 +29,3 @@ export type Transaction = {
   type?: OperationTypes,
   value?: string,
 };
-
-export function getOperationType(type: string) {
-  switch (type) {
-    case 'create_account':
-      return OperationTypes.create_account;
-    case 'payment':
-      return OperationTypes.payment;
-    case 'path_payment':
-      return OperationTypes.path_payment;
-    case 'manage_offer':
-      return OperationTypes.manage_offer;
-    case 'create_passive_offer':
-      return OperationTypes.create_passive_offer;
-    case 'set_options':
-      return OperationTypes.set_options;
-    case 'change_trust':
-      return OperationTypes.change_trust;
-    case 'allow_trust':
-      return OperationTypes.allow_trust;
-    case 'account_merge':
-      return OperationTypes.account_merge;
-    case 'inflation':
-      return OperationTypes.inflation;
-    case 'manage_data':
-      return OperationTypes.manage_data;
-    default:
-      return null;
-  }
-}

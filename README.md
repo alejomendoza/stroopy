@@ -14,6 +14,10 @@ Connect a bot to Slack, get a Bot API token from the Slack integrations [page.](
 
 `BOT_TOKEN=xoxb-xxxxxxxxx yarn start` -> streams from https://horizon.stellar.org/
 
+## How to test?
+
+`BOT_TOKEN=xoxb-xxxxxxxxx yarn test`
+
 ## Slack commands
 
 Stream transactions: `stream transactions @stroopy`
