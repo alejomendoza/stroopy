@@ -10,7 +10,9 @@ Stroopy lets you stream transactions from the stellar network into a Slack chann
 
 Connect a bot to Slack, get a Bot API token from the Slack integrations [page.](https://my.slack.com/services/new/bot)
 
-`BOT_TOKEN=xoxb-xxxxxxxxx yarn start`
+`BOT_TOKEN=xoxb-xxxxxxxxx yarn start:dev` -> streams from https://horizon-testnet.stellar.org/
+
+`BOT_TOKEN=xoxb-xxxxxxxxx yarn start` -> streams from https://horizon.stellar.org/
 
 ## Slack commands
 

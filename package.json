@@ -5,7 +5,8 @@
   "author": "Alejo Mendoza",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=dev ts-node ./src/stream-transactions.ts"
+    "start:dev": "NODE_ENV=dev ts-node ./src/stream-transactions.ts",
+    "start": "ts-node ./src/stream-transactions.ts"
   },
   "engineStrict": true,
   "engines": {
