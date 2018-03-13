@@ -8,7 +8,7 @@ Stroopy lets you stream transactions from the stellar network into a Slack chann
 ## How to run locally?
 1. `git clone git@github.com:alejomendoza/stroopy.git`
 
-2. `npm`
+2. `npm install`
 
 3. Create a Slack app, get the Client Id and Client Secret from the slack api dashboard [page.](https://api.slack.com/apps/)
 
