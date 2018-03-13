@@ -16,9 +16,8 @@ Stroopy lets you stream transactions from the stellar network into a Slack chann
 
 5. Make sure you have your Request URL for interactive messages set to (https://yoursubdomain.localtunnel.me/slack/receive).
 
-`CLIENT_ID=xxxxxxxx CLIENT_SECRET=xxxxxxxx yarn start:dev` -> streams from https://horizon-testnet.stellar.org/
-
-`CLIENT_ID=xxxxxxxx CLIENT_SECRET=xxxxxxxx yarn start` -> streams from https://horizon.stellar.org/
+6. `CLIENT_ID=xxxxxxxx CLIENT_SECRET=xxxxxxxx yarn start:dev` -> streams from https://horizon-testnet.stellar.org/
+   `CLIENT_ID=xxxxxxxx CLIENT_SECRET=xxxxxxxx yarn start` -> streams from https://horizon.stellar.org/
 
 ## How to test?
 
