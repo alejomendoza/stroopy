@@ -19,6 +19,7 @@ controller.hears('stream transactions', 'mention',  (bot: any, message: any) => 
 controller.hears('stop transactions', 'mention',  (bot: any, message: any) => {
   bot.reply(message, 'stopped transactions stream from stellar network');
   transactionDisposer();
+  transactionDisposer = null;
 });
 
 
