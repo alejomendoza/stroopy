@@ -5,6 +5,7 @@
   "author": "Alejo Mendoza",
   "license": "MIT",
   "scripts": {
+    "prestart": "node env",
     "start:dev": "NODE_ENV=dev ts-node ./src/stream-transactions.ts",
     "start": "ts-node ./src/stream-transactions.ts",
     "test": "mocha -r ts-node/register src/**/*.spec.ts"
@@ -14,8 +15,10 @@
     "node": "8.9.0"
   },
   "dependencies": {
+    "@google-cloud/storage": "^1.6.0",
     "@types/node": "8.9.0",
     "botkit": "^0.6.9",
+    "dotenv": "^5.0.1",
     "mobx": "^3.5.1",
     "stellar-sdk": "^0.8.0",
     "ts-node": "3.1.0",
