@@ -8,7 +8,7 @@ Stroopy lets you stream transactions from the stellar network into a Slack chann
 ## How to run locally?
 1. `git clone git@github.com:alejomendoza/stroopy.git`
 
-2. `yarn`
+2. `npm`
 
 3. Create a Slack app, get the Client Id and Client Secret from the slack api dashboard [page.](https://api.slack.com/apps/)
 
@@ -16,12 +16,12 @@ Stroopy lets you stream transactions from the stellar network into a Slack chann
 
 5. Make sure you have your Request URL for interactive messages set to (https://yoursubdomain.localtunnel.me/slack/receive).
 
-6. `CLIENT_ID=xxxxxxxx CLIENT_SECRET=xxxxxxxx PORT=3000 yarn start:dev` -> streams from https://horizon-testnet.stellar.org/
-   `CLIENT_ID=xxxxxxxx CLIENT_SECRET=xxxxxxxx PORT=3000 yarn start` -> streams from https://horizon.stellar.org/
+6. `CLIENT_ID=xxxxxxxx CLIENT_SECRET=xxxxxxxx PORT=3000 npm start:dev` -> streams from https://horizon-testnet.stellar.org/
+   `CLIENT_ID=xxxxxxxx CLIENT_SECRET=xxxxxxxx PORT=3000 npm start` -> streams from https://horizon.stellar.org/
 
 ## How to test?
 
-`CLIENT_ID=xxxxxxxx CLIENT_SECRET=xxxxxxxx PORT=3000 yarn test`
+`CLIENT_ID=xxxxxxxx CLIENT_SECRET=xxxxxxxx PORT=3000 npm test`
 
 ## Slack commands
 
